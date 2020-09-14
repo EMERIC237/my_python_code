@@ -188,7 +188,7 @@ def play_game():
 # WHILE LOOP TO KEEP RUNNINF THE GAME
 
 
-print('Welcome to Tic Tac Toe')
+print('Welcome to Tic Tac Toe by EMERIC F. T.')
 
 first_player = input("Player one, writes your name please: ")
 second_player = random.choice(["IA","MASTER","COMP"])
