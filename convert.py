@@ -1,6 +1,3 @@
-#utf-8 encode
-#/usr/env/python 3
-
 def dec_to_bin(num):
 
     if num > 1:
@@ -19,19 +16,19 @@ def bin_to_dec(num):
     print(dec_value)
 
 def main():
-	answer = input("DO you one to move from decimal to binary\nor from binary to decimal\nchoose 'one' for the first option and 'two' for the second option " )
-	if answer == "one":
-		print("well choice")
+	answer = input("Do you want to move: \n  from decimal to binary\n  or from binary to decimal\nchoose 'one' for the first option and 'two' for the second option " )
+	if answer == "one" or answer == "1":
+		print("Good choice")
 		print("You choosed from decimal to binary")
-		number=int(input("write the value you want to convert"))
+		number=int(input("write the value you want to convert "))
 		dec_to_bin(number)
-	elif answer == "two":
-		print("well choice")
+	elif answer == "two" or answer == "2":
+		print("Good choice")
 		print("You choosed from binary to decimal")
-		number=int(input("write the value you want to convert"))
+		number=int(input("write the value you want to convert "))
 		bin_to_dec(number) 
 	else:
-		print("you choosed the worng choice\nPlease,choose 'one' for option 1 or 'two' for option2" )
+		print("you choosed the wrong choice\nPlease,choose 'one' for option 1 or 'two' for option 2" )
 		main()
 
 
