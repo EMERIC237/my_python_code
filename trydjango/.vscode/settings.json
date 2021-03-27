@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "C:\\Users\\mycro\\.virtualenvs\\trydjango-hUOOPMGD\\Scripts\\python.exe",
+
+    "python.linting.pylintArgs": [
+        "--disable=django-not-configured",
+        "--django-settings-module=trydjango.settings",
+    ]
+}

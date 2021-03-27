@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for instance in object_list %}
+    <h1>{{ instance.id }}-{{ instance.title }}</h1>
+
+{% endfor %}
+
+
+{% endblock %}
